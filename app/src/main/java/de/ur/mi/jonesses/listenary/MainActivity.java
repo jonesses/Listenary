@@ -16,7 +16,6 @@ public class MainActivity extends AppCompatActivity {
         setupUI();
     }
 
-    
     private void setupUI() {
         Button startStopButton = (Button) findViewById(R.id.start_stop_button);
         TextView trackInfoTextView = (TextView) findViewById(R.id.playing_info_textview);
